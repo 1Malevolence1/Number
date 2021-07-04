@@ -1,4 +1,4 @@
-package com.example.myapplication1;
+package com.example.myapplication1.calculations.logic;
 
 public class Calculation implements Calculator {
     private final Operation mOperation;

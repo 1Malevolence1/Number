@@ -1,9 +1,12 @@
-package com.example.myapplication1;
+package com.example.myapplication1.calculations.presentation;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.Log;
+
+import com.example.myapplication1.calculations.logic.MathOperations;
+import com.example.myapplication1.R;
 
 public class MathButton extends androidx.appcompat.widget.AppCompatButton {
     private MathOperations mOperations;
