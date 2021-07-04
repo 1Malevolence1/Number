@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MathButton">
+        <attr name="mathOperation">
+            <enum name="ADD" value="0"/>
+            <enum name="SUBTRACT" value="1" />
+            <enum name="MULTIPLY" value="2"/>
+            <enum name="DIVISION" value="3"/>
+            <enum name="REMAINS" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>
